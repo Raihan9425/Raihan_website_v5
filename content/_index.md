@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: /workspaces/Raihan_website_v4/static/uploads/resume.pdf
+        url: /workspaces/Raihan_website_v5/static/uploads/resume.pdf
     design:
       css_class: dark
       background:
