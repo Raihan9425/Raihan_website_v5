@@ -1,0 +1,50 @@
+/* Force white background and dark text site-wide */
+body,
+main,
+section,
+article,
+header,
+footer {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+}
+
+a {
+  color: #1a1a1a !important;
+}
+
+.navbar,
+.navbar * {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+  border-color: #e0e0e0 !important;
+}
+
+.navbar a:hover {
+  color: #000000 !important;
+}
+
+.bg-primary-700,
+.bg-primary-600,
+.bg-primary,
+.bg-dark,
+.bg-primary-500 {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+}
+
+.text-white {
+  color: #111111 !important;
+}
+
+.btn,
+button {
+  background-color: #ffffff !important;
+  color: #111111 !important;
+  border: 1px solid #cccccc;
+}
+
+.btn:hover,
+button:hover {
+  background-color: #f0f0f0 !important;
+}
