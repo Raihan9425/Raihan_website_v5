@@ -1,4 +1,4 @@
-/* Force white background and dark text site-wide */
+/* Force global white background and dark text */
 body,
 main,
 section,
@@ -9,42 +9,39 @@ footer {
   color: #111111 !important;
 }
 
-a {
-  color: #1a1a1a !important;
+/* Make all text inside divs and spans black */
+div, span, p, li, a, h1, h2, h3, h4, h5, h6 {
+  color: #111111 !important;
 }
 
+/* Link styling */
+a {
+  color: #0b0b0b !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000 !important;
+  text-decoration: underline;
+}
+
+/* Fix navbar */
 .navbar,
 .navbar * {
   background-color: #ffffff !important;
   color: #111111 !important;
-  border-color: #e0e0e0 !important;
 }
 
-.navbar a:hover {
-  color: #000000 !important;
-}
-
-.bg-primary-700,
-.bg-primary-600,
-.bg-primary,
-.bg-dark,
-.bg-primary-500 {
-  background-color: #ffffff !important;
-  color: #111111 !important;
-}
-
-.text-white {
-  color: #111111 !important;
-}
-
+/* Fix buttons */
 .btn,
 button {
   background-color: #ffffff !important;
   color: #111111 !important;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
 }
 
 .btn:hover,
 button:hover {
-  background-color: #f0f0f0 !important;
+  background-color: #f5f5f5 !important;
+  color: #000000 !important;
 }
